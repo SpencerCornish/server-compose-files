@@ -4,10 +4,10 @@ services:
   minecraft:
     image: itzg/minecraft-server
     ports:
-      - "25565:25565"
-      - "8124:8123"
+      - "25564:25565"
+      - "8122:8123"
     volumes:
-      - "minecraft-spigot-main/data:/data"
+      - "./minecraft-spigot-sands/data:/data"
     environment:
       EULA: "TRUE"
       ENABLE_RCON: "true"

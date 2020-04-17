@@ -7,7 +7,7 @@ services:
       - "25565:25565"
       - "8124:8123"
     volumes:
-      - "minecraft-spigot-main/data:/data"
+      - "./minecraft-spigot-main/data:/data"
     environment:
       EULA: "TRUE"
       ENABLE_RCON: "true"
