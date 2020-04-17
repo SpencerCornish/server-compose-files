@@ -24,4 +24,7 @@
 
 
 ### Server mapfiles/data
-data/
+*/data/config/
+*/data/logs/
+*/data/plugins/dynmap/
+spigot_server-*.jar

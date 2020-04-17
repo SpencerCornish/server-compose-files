@@ -6,21 +6,26 @@ help:
 .DEFAULT_GOAL := help
 
 start-main:
-	docker-compose up -f minecraft-spigot-main/docker-compose.yml -d
+	docker-compose -f minecraft-spigot-main/docker-compose.yml up -d
 
 start-sands:
-	docker-compose up -f minecraft-spigot-sands/docker-compose.yml -d
+	docker-compose -f minecraft-spigot-sands/docker-compose.yml up -d
 
 start-pc:
-	docker-compose up -f minecraft-spigot-pc/docker-compose.yml -d
+	docker-compose -f minecraft-spigot-pc/docker-compose.yml up -d
 
 
 
 stop-main:
-	docker-compose down -f minecraft-spigot-main/docker-compose.yml
+	docker-compose -f minecraft-spigot-main/docker-compose.yml down
 
 stop-sands:
-	docker-compose down -f minecraft-spigot-sands/docker-compose.yml 
+	docker-compose -f minecraft-spigot-sands/docker-compose.yml down
 
 stop-pc:
-	docker-compose down -f minecraft-spigot-pc/docker-compose.yml 
+	docker-compose -f minecraft-spigot-pc/docker-compose.yml down
+
+start-all: start-main start-sands start-pc
+
+stop-all: stop-main stop-sands stop-pc
+	
