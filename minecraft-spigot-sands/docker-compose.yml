@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+      - "8124":"8123"
+    volumes:
+      - "minecraft-spigot-main/data:/data"
+    environment:
+      EULA: "TRUE"
+      ENABLE_RCON: "true"
+      TYPE: "SPIGOT"
+      Memory: "2G"
+
