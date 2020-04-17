@@ -5,7 +5,7 @@ services:
     image: itzg/minecraft-server
     ports:
       - "25565:25565"
-      - "8124":"8123"
+      - "8124:8123"
     volumes:
       - "minecraft-spigot-main/data:/data"
     environment:
