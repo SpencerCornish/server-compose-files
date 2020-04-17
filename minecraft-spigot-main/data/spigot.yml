@@ -14,16 +14,16 @@ config-version: 12
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
   sample-count: 12
   player-shuffle: 0
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  netty-threads: 4
   debug: false
   attribute:
     maxHealth:
@@ -61,18 +61,17 @@ stats:
 world-settings:
   default:
     verbose: true
-    hopper-amount: 1
     view-distance: default
     item-despawn-rate: 6000
-    mob-spawn-range: 6
-    wither-spawn-sound-radius: 0
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     hanging-tick-frequency: 100
-    max-tnt-per-tick: 100
-    zombie-aggressive-towards-villager: true
+    hopper-amount: 1
+    mob-spawn-range: 6
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-desert: 14357617
@@ -84,25 +83,13 @@ world-settings:
     seed-ocean: 14357621
     seed-outpost: 165745296
     seed-slime: 987234911
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
+    max-tnt-per-tick: 100
     merge-radius:
       item: 2.5
       exp: 3.0
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tick-time:
-      tile: 50
-      entity: 50
-    squid-spawn-range:
-      min: 45.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -132,3 +119,16 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tick-time:
+      tile: 50
+      entity: 50
+    squid-spawn-range:
+      min: 45.0

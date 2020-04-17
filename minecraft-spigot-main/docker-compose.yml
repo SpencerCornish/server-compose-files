@@ -12,4 +12,4 @@ services:
       EULA: "TRUE"
       ENABLE_RCON: "true"
       TYPE: "SPIGOT"
-      MEMORY: "2G"
+      MEMORY: "3G"
