@@ -589,6 +589,7 @@
       "minecraft:skeleton": "2020-04-15 01:35:56 +0000",
       "minecraft:spider": "2020-04-16 02:15:21 +0000",
       "minecraft:creeper": "2020-04-15 05:05:49 +0000",
+      "minecraft:phantom": "2020-04-18 06:29:22 +0000",
       "minecraft:enderman": "2020-04-16 02:23:10 +0000",
       "minecraft:zombie": "2020-04-14 01:21:42 +0000"
     },
@@ -1154,6 +1155,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mountains": "2020-04-19 00:49:21 +0000",
       "minecraft:beach": "2020-04-15 02:36:16 +0000",
       "minecraft:dark_forest": "2020-04-14 01:08:19 +0000",
       "minecraft:river": "2020-04-14 01:51:37 +0000",
@@ -1679,7 +1681,8 @@
       "cooked_beef": "2020-04-15 04:36:57 +0000",
       "porkchop": "2020-04-14 01:22:22 +0000",
       "apple": "2020-04-14 02:38:49 +0000",
-      "bread": "2020-04-15 04:53:36 +0000"
+      "bread": "2020-04-15 04:53:36 +0000",
+      "carrot": "2020-04-19 05:55:55 +0000"
     },
     "done": false
   },

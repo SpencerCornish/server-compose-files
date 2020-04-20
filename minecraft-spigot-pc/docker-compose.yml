@@ -11,6 +11,7 @@ services:
     environment:
       EULA: "TRUE"
       ENABLE_RCON: "true"
-      TYPE: "SPIGOT"
-      MEMORY: "3G"
+      TYPE: "FTB"
+      FTB_SERVER_MOD: "stoneblock.zip"
+      MEMORY: "4G"
 

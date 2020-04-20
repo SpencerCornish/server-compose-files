@@ -203,6 +203,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-04-19 06:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2020-04-19 06:34:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2020-04-16 04:34:43 +0000"
@@ -263,6 +275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2020-04-18 06:26:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2020-04-14 02:01:04 +0000"
@@ -284,6 +302,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-04-14 02:05:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2020-04-18 23:50:59 +0000"
     },
     "done": true
   },
@@ -395,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2020-04-18 06:26:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2020-04-14 01:07:50 +0000"
@@ -410,6 +440,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-04-14 01:11:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2020-04-19 06:37:03 +0000"
     },
     "done": true
   },
@@ -722,6 +758,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2020-04-18 23:50:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2020-04-14 01:36:23 +0000"
@@ -746,6 +788,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2020-04-19 06:37:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2020-04-14 02:11:55 +0000"
@@ -761,6 +809,12 @@
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2020-04-15 02:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2020-04-19 06:37:03 +0000"
     },
     "done": true
   },
@@ -944,8 +998,11 @@
       "minecraft:mountains": "2020-04-14 02:27:09 +0000",
       "minecraft:forest": "2020-04-16 02:38:13 +0000",
       "minecraft:taiga": "2020-04-16 02:16:10 +0000",
+      "minecraft:desert_hills": "2020-04-18 23:47:28 +0000",
       "minecraft:taiga_hills": "2020-04-16 02:24:55 +0000",
+      "minecraft:desert": "2020-04-18 23:46:48 +0000",
       "minecraft:birch_forest": "2020-04-16 03:24:44 +0000",
+      "minecraft:savanna_plateau": "2020-04-18 23:44:51 +0000",
       "minecraft:beach": "2020-04-14 01:10:11 +0000",
       "minecraft:dark_forest": "2020-04-14 01:06:10 +0000",
       "minecraft:river": "2020-04-14 02:27:05 +0000",
@@ -987,6 +1044,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2020-04-14 01:11:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2020-04-19 06:37:01 +0000"
     },
     "done": true
   },
@@ -1047,6 +1110,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2020-04-14 01:59:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2020-04-18 06:26:55 +0000"
     },
     "done": true
   },
@@ -1122,6 +1191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-04-19 06:49:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2020-04-14 01:11:36 +0000"
@@ -1131,6 +1206,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2020-04-15 05:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2020-04-19 06:34:17 +0000"
     },
     "done": true
   },
@@ -1149,6 +1230,18 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-04-14 02:05:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2020-04-19 06:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2020-04-19 00:01:03 +0000"
     },
     "done": true
   },
@@ -2198,6 +2291,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2020-04-19 06:37:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2020-04-14 01:07:50 +0000"
@@ -2363,6 +2462,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2020-04-16 02:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2020-04-19 06:37:01 +0000"
     },
     "done": true
   },
